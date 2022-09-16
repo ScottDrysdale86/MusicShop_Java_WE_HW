@@ -22,4 +22,9 @@ public class KeyedTest {
         assertEquals(650, piano.getSalePrice(),0.0);
         assertEquals("Piano", piano.getKeyType());
     }
+
+    @Test
+    public void canPlay(){
+        assertEquals("Keyed noise", piano.play());
+    }
 }

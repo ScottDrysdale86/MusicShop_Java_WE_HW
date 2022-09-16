@@ -22,4 +22,9 @@ public class PercussionTest {
         assertEquals(1000, drums.getSalePrice(),0.0);
         assertEquals(6, drums.getDrumsInKit());
     }
+
+    @Test
+    public void canPlay(){
+        assertEquals("Bang Bang noise", drums.play());
+    }
 }

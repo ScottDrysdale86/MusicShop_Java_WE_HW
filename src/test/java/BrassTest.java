@@ -22,4 +22,9 @@ public class BrassTest {
         assertEquals(160, trumpet.getSalePrice(),0.0);
         assertEquals(4, trumpet.getValveNumber());
     }
+
+    @Test
+    public void canPlay(){
+        assertEquals("Brass Instrument noise", trumpet.play());
+    }
 }

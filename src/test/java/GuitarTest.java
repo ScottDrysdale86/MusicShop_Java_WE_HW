@@ -23,4 +23,9 @@ public class GuitarTest {
         assertEquals(6, electricGuitar.getStringNumber());
         assertEquals("Electric", electricGuitar.getGuitarType());
     }
+
+    @Test
+    public void canPlay(){
+        assertEquals("Guitar noise", electricGuitar.play());
+    }
 }

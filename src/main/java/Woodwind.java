@@ -20,6 +20,6 @@ public class Woodwind extends Instrument {
 
     @Override
     public String play() {
-        return "Guitar noise";
+        return "Woodwind noise";
     }
 }

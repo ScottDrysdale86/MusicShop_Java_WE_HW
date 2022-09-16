@@ -22,4 +22,9 @@ public class WoodwindTest {
         assertEquals(100, flute.getSalePrice(),0.0);
         assertEquals(8, flute.getKeyNumber());
     }
+
+    @Test
+    public void canPlay(){
+        assertEquals("Woodwind noise", flute.play());
+    }
 }

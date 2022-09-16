@@ -20,6 +20,6 @@ public class Percussion extends Instrument {
 
     @Override
     public String play() {
-        return "Guitar noise";
+        return "Bang Bang noise";
     }
 }
